@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="FullMoon.css">
+<body>
+
+<div class="bgimg">
+  <div class="topleft">
+    <p class="side">FullMoon Supplements INC</p>
+    <p class="side">Wolf's Den Apparel</p>
+  </div>
+  <div class="container">
+  <div class="middle card">
+    <h1 class="shadow">COMING SOON</h1>
+    <hr>
+    <h2 class="shadow">FullMoon Supplements INC and Wolve's Den Apparel INC</h2>
+    <p class="para">My name is Idris Omar I'm the president of FullMoon Supplements INC and Wolf's Den Apparel, I'm from a small town in idaho and I plan on bringing in new age remedies and supplements that will always be provided with proper information of what your buying and intaking into your body so you know exactly what you are intaking.
+ I'm tired of seeing athletes scammed and poisoned, so join me in taking a stand against companies and corporations that POISON and SCAM athletes. Take a look at our countdown and set your alarm clock! 
+please stay tuned for Wolves Den Apparel inc...</p>
+    <p id="demo" style="font-size:40px"></p>
+    </div>
+  </div>
+  <div class="bottomleft">
+      <p class="side">Thank you for visiting</p> 
+      <p class="side">FullmoonSupplements.com</p>
+  </div>
+</div>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jun 21, 2017 15:37:25").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(countdownfunction);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+
+</body>
+</html>

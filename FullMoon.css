@@ -1,0 +1,101 @@
+body, html { 
+    background-color: black;
+    color:white;
+     
+    height: 100%;
+    margin: 0;
+}
+.shadow{ 
+    font-size: 46px;
+     text-shadow: 2px 2px 2px gray;
+    color:#e8540a;
+}
+.para{ 
+    font-size: 30px;
+     text-shadow: 2px 2px 2px gray;
+    color:#e8540a;
+}
+.bgimg {
+    background: url(img/FullMoonWolf.svg) no-repeat top left;
+    background-size: contain;
+    
+    height: 100%;
+    background-position: center;
+    position: relative;
+    color: #e8540a;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;  
+     opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.topleft {    
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+ 
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+      transition: .5s ease;
+  opacity: 0;
+ -ms-transform: translate(-50%, -50%)
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+.side{
+    color: #e8540a;
+    font-size: 30px;
+}
+.card { 
+    
+    background-color: rgba(102, 102, 102, .95);
+    box-shadow: 0 4px 8px 0 rgba(102, 102, 102, 0.9);
+
+    transition: 0.3s;
+    width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(102, 102, 102, 1);
+}
+
+.container {
+    padding: 2px 16px;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+
