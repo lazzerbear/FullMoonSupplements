@@ -1,5 +1,5 @@
 # FullMoonSupplements
-Coming soon page for FullMoon Supplements
+Coming soon page for http://fullmoonsupplements.com/ 
 Page by Addison S. Martin.
 E-mail: addisonmartin547@gmail.com
 
